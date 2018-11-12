@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--CSS file-->
+    <link rel="stylesheet" type="text/css" href="shopping.css">
+    <script src="shopping.js"></script>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+        <header>
+                <nav class="navbar navbar-dark bg-dark">
+                        <a class="navbar-brand" href="#">CYCYmode</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Our History</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Our Products
+                              </a>
+                              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">For Her</a>
+                                <a class="dropdown-item" href="#">For Him</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">My baby</a>
+                              </div>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link disabled" href="#">Contact Us</a>
+                            </li>
+                          </ul>
+                          <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button type="button" class="btn btn-outline-primary">Search</button>
+                          </form>
+                        </div>
+                      </nav>
+          </header>
+          <section class="bodyStyle">
+          <div class="card bigcard">
+            <div class="input-group mb-3 price">
+                <div class="input-group-append">
+                        <h3 class="input-group-text" id="basic-addon2">0</h3>
+                      </div>
+                      <div class="input-group-append">
+                            <span class="input-group-text" id="basic-addon2">$</span>
+                          </div>
+                <div class="input-group-append">
+                  <span class="input-group-text" id="totalprice">TOTAL PRICE</span>
+                </div>
+              </div>
+          <div class="marchendise container-fluid row">
+                <div class="card col-lg-4" style="width: 18rem;" id="tab1">
+                        <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/0986/5966/products/Snoopy-Matsuyama-kids-1000px.jpg?v=1537370723" alt="Card image cap">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close" id="close-btn-1" onclick="close1()">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Cras justo odio</li>
+                          <li class="list-group-item"><div class="input-group-append">
+                              <div class="input-group-append">
+                                  <span class="input-group-text" id="totalprice">TOTAL PRICE</span>
+                                </div>
+                                <h3 class="input-group-text" id="totalprice1">0</h3>
+                              </div></li>
+                          <li class="list-group-item"><div class="input-group">
+                                <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Your comment">
+                                <div class="input-group-append">
+                                  <span class="input-group-text">$</span>
+                                  <h3 class="input-group-text" id="price-art-1">15</h3>
+                                </div>
+                              </div></li>
+                        </ul>
+                        <div class="card-body">
+                                <div class="btn-group" role="group" aria-label="Basic example">
+                                        <button type="button" class="btn btn-secondary" id="minus-btn-1" onclick="moins1(),sum1(),totalsum()">-</button>
+                                        <button type="button" class="btn btn-secondary" id="heart-btn-1" onclick="heartarticle1()" ondblclick="unheart1()"><img src="https://clipart.info/images/ccovers/1484772652Heart-png-black-transparent.png" id="heart1" width=20%></button>
+                                        <button type="button" class="btn btn-secondary" id="plus-btn-1" onclick="plus1(),sum1(),totalsum()">+</button>
+                                        <h3 type="text" class="form-control" id="nbr-article1" >0 </h3>
+                                      </div>
+                        </div>
+                    </div>
+                    <div class="card col-lg-4" style="width: 18rem;" id="tab2">
+                            <img class="card-img-top" src="https://i.pinimg.com/originals/11/c3/a4/11c3a4df20ebf96d256d2d8b594a1e40.jpg" alt="Card image cap">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close" id="close-btn-2" onclick="close2()">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                            <div class="card-body">
+                              <h5 class="card-title">Card title</h5>
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">Cras justo odio</li>
+                              <li class="list-group-item"><div class="input-group-append">
+                                  <div class="input-group-append">
+                                      <span class="input-group-text" id="totalprice">TOTAL PRICE</span>
+                                    </div>
+                                    <h3 class="input-group-text" id="totalprice2">0</h3>
+                                  </div></li>
+                              <li class="list-group-item"><div class="input-group">
+                                    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)"placeholder="Your comment">
+                                    <div class="input-group-append">
+                                      <span class="input-group-text">$</span>
+                                      <h3 class="input-group-text" id="price-art-2">25</h3>
+                                    </div>
+                                  </div></li>
+                            </ul>
+                            <div class="card-body">
+                                    <div class="btn-group" role="group" aria-label="Basic example">
+                                            <button type="button" class="btn btn-secondary" id="minus-btn-2" onclick="moins2(),sum2(),totalsum()">-</button>
+                                            <button type="button" class="btn btn-secondary" id="heart-btn-2" onclick="heartarticle2()" ondblclick="unheart2()"><img src="https://clipart.info/images/ccovers/1484772652Heart-png-black-transparent.png" id="heart2" width=20%></button>
+                                            <button type="button" class="btn btn-secondary" id="minus-btn-2" onclick="plus2(),sum2(),totalsum()">+</button>
+                                            <h3 type="text" class="form-control"  id="nbr-article2" >0</h3>
+                                          </div>
+                            </div>
+                        </div>
+                        <div class="card col-lg-4" style="width: 18rem;" id="tab3">
+                                <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAGQnBw0Dg_G_l3TWQ8va5vxxfbqFaFmTv5aQ5I8HKUBD8bbN9" alt="Card image cap">
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close" id="close-btn-3" onclick="close3()">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">Cras justo odio</li>
+                                  <li class="list-group-item"><div class="input-group-append">
+                                      <div class="input-group-append">
+                                          <span class="input-group-text" id="totalprice">TOTAL PRICE</span>
+                                        </div>
+                                        <h3 class="input-group-text" id="totalprice3">0</h3>
+                                      </div></li>
+                                  <li class="list-group-item"><div class="input-group">
+                                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Your comment">
+                                        <div class="input-group-append">
+                                          <span class="input-group-text">$</span>
+                                          <h3 class="input-group-text" id="price-art-3">35</h3>
+                                        </div>
+                                      </div></li>
+                                </ul>
+                                <div class="card-body">
+                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                                <button type="button" class="btn btn-secondary" id="minus-btn-3" onclick="moins3(),sum3(),totalsum()">-</button>
+                                                <button type="button" class="btn btn-secondary" id="heart-btn-3" onclick="heartarticle3()" ondblclick="unheart3()"><img src="https://clipart.info/images/ccovers/1484772652Heart-png-black-transparent.png" id="heart3" width=20%></button>
+                                                <button type="button" class="btn btn-secondary" id="minus-btn-3" onclick="plus3(),sum3(),totalsum()">+</button>
+                                                <h3 type="text" class="form-control" id="nbr-article3" >0 </h3>
+                                              </div>
+                                </div>
+                            </div>
+                            <!-- hidden tabs -->
+                            <div class="card col-lg-4" style="width: 18rem;" id="tab4">
+                                <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/0986/5966/products/Snoopy-Matsuyama-kids-1000px.jpg?v=1537370723" alt="Card image cap">
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close" id="close-btn-1" onclick="close4()">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">Cras justo odio</li>
+                                  <li class="list-group-item"><div class="input-group-append">
+                                      <div class="input-group-append">
+                                          <span class="input-group-text" id="totalprice">TOTAL PRICE</span>
+                                        </div>
+                                        <h3 class="input-group-text" id="totalprice4">0</h3>
+                                      </div></li>
+                                  <li class="list-group-item"><div class="input-group">
+                                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Your comment">
+                                        <div class="input-group-append">
+                                          <span class="input-group-text">$</span>
+                                          <h3 class="input-group-text" id="price-art-4">15</h3>
+                                        </div>
+                                      </div></li>
+                                </ul>
+                                <div class="card-body">
+                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                                <button type="button" class="btn btn-secondary" id="minus-btn-4" onclick="moins4(),sum4(),totalsum()">-</button>
+                                                <button type="button" class="btn btn-secondary" id="heart-btn-4" onclick="heartarticle4()" ondblclick="unheart4()"><img src="https://clipart.info/images/ccovers/1484772652Heart-png-black-transparent.png" id="heart4" width=20%></button>
+                                                <button type="button" class="btn btn-secondary" id="plus-btn-4" onclick="plus4(),sum4(),totalsum()">+</button>
+                                                <h3 type="text" class="form-control" id="nbr-article4" >0 </h3>
+                                              </div>
+                                </div>
+                            </div>
+                            <div class="card col-lg-4" style="width: 18rem;" id="tab5">
+                                <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/0986/5966/products/Snoopy-Matsuyama-kids-1000px.jpg?v=1537370723" alt="Card image cap">
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close" id="close-btn-1" onclick="close5()">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">Cras justo odio</li>
+                                  <li class="list-group-item"><div class="input-group-append">
+                                      <div class="input-group-append">
+                                          <span class="input-group-text" id="totalprice">TOTAL PRICE</span>
+                                        </div>
+                                        <h3 class="input-group-text" id="totalprice5">0</h3>
+                                      </div></li>
+                                  <li class="list-group-item"><div class="input-group">
+                                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Your comment">
+                                        <div class="input-group-append">
+                                          <span class="input-group-text">$</span>
+                                          <h3 class="input-group-text" id="price-art-5">15</h3>
+                                        </div>
+                                      </div></li>
+                                </ul>
+                                <div class="card-body">
+                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                                <button type="button" class="btn btn-secondary" id="minus-btn-5" onclick="moins5(),sum5(),totalsum()">-</button>
+                                                <button type="button" class="btn btn-secondary" id="heart-btn-5" onclick="heartarticle5()" ondblclick="unheart5()"><img src="https://clipart.info/images/ccovers/1484772652Heart-png-black-transparent.png" id="heart5" width=20%></button>
+                                                <button type="button" class="btn btn-secondary" id="plus-btn-5" onclick="plus5(),sum5(),totalsum()">+</button>
+                                                <h3 type="text" class="form-control" id="nbr-article5" >0 </h3>
+                                              </div>
+                                </div>
+                            </div>
+                            <div class="card col-lg-4" style="width: 18rem;" id="tab6">
+                                <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/0986/5966/products/Snoopy-Matsuyama-kids-1000px.jpg?v=1537370723" alt="Card image cap">
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close" id="close-btn-1" onclick="close6()">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                <div class="card-body">
+                                  <h5 class="card-title">Card title</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">Cras justo odio</li>
+                                  <li class="list-group-item"><div class="input-group-append">
+                                      <div class="input-group-append">
+                                          <span class="input-group-text" id="totalprice">TOTAL PRICE</span>
+                                        </div>
+                                        <h3 class="input-group-text" id="totalprice6">0</h3>
+                                      </div></li>
+                                  <li class="list-group-item"><div class="input-group">
+                                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" placeholder="Your comment">
+                                        <div class="input-group-append">
+                                          <span class="input-group-text">$</span>
+                                          <h3 class="input-group-text" id="price-art-6">15</h3>
+                                        </div>
+                                      </div></li>
+                                </ul>
+                                <div class="card-body">
+                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                                <button type="button" class="btn btn-secondary" id="minus-btn-6" onclick="moins6(),sum6(),totalsum()">-</button>
+                                                <button type="button" class="btn btn-secondary" id="heart-btn-6" onclick="heartarticle6()" ondblclick="unheart6()"><img src="https://clipart.info/images/ccovers/1484772652Heart-png-black-transparent.png" id="heart6" width=20%></button>
+                                                <button type="button" class="btn btn-secondary" id="plus-btn-6" onclick="plus6(),sum6(),totalsum()">+</button>
+                                                <h3 type="text" class="form-control" id="nbr-article6" >0 </h3>
+                                              </div>
+                                </div>
+                            </div>
+                            <!-- end of hidden tabs -->
+          </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+  <hr>
+  <footer class="footer-style">
+        <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="#">About Us</a></li>
+                <li class="list-group-item"><a href="#">Our History</a></li>
+                <li class="list-group-item"><a href="#">Our Products</a></li>
+                <li class="list-group-item"><a href="#">Home</a></li>
+                <li class="list-group-item"><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="container-fluid row social-media">
+        <div class="media col-lg-4">
+            <img class="align-self-center mr-3" src="https://cdn.pixabay.com/photo/2017/02/08/08/38/facebook-2048127_960_720.png" alt="Generic placeholder image">
+            <div class="media-body social-name">
+                <h5 class="mt-0"><a href="#">Facebook</a></h5>
+            </div>
+        </div>
+        <div class="media col-lg-4">
+            <img class="align-self-center mr-3" src="https://cdn.pixabay.com/photo/2017/02/08/08/39/twitter-2048133_960_720.png" alt="Generic placeholder image">
+            <div class="media-body social-name">
+                <h5 class="mt-0"><a href="#">Twitter</a></h5>
+            </div>
+        </div>
+        <div class="media col-lg-4">
+                <img class="align-self-center mr-3" src="https://cdn.pixabay.com/photo/2017/03/17/06/48/instagram-2151050_960_720.png" alt="Generic placeholder image">
+                <div class="media-body social-name">
+                    <h5 class="mt-0"><a href="#">Instagram</a></h5>
+                </div>
+            </div>
+        </div>
+  </footer>
+</html>
